@@ -1,0 +1,118 @@
+.button{
+  /* Styles for the select element */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #3d3d3d;
+  border-radius: 4px;
+  width: 300px;
+  background-color: #1c1a1a    ;  
+  color:rgb(163, 200, 231);
+}
+
+.button option {
+  /* Styles for the options within the select element */
+  padding: 8px;
+  font-size: 16px;
+  background-color: #1c1a1a     ;
+  color:rgb(163, 200, 231);
+}
+
+.button:focus {
+  /* Styles when the select element is focused */
+  outline: none;
+  box-shadow: 0 0 5px #aaa;
+}
+
+ 
+
+
+
+.box {
+  width: 200px;
+  height: 150px;
+  margin-top: 0px;
+  /* position: absolute;  */
+  position: relative;
+  top: 200px;
+  left: 1000px;
+  background-color: #000000; /* Add your desired color code here */
+  color: aliceblue;
+   
+}
+
+
+
+
+
+body {
+  background-color: black;
+  overflow: hidden;
+
+}
+
+
+ 
+#details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+#ohlc {
+  position: relative;
+  top: 40px;
+  left: 500px;
+  height: 50px;
+  width: 550px;
+  transform: translate(-50%, -50%);
+  background-color: #000000; /* Light background color */
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  color: #a79c9c; /* Dark text color */
+  
+}
+
+#ohlc p {
+  margin: 0;
+}
+
+#ohlc span.red {
+  color: #e60000; /* Red text color */
+  transition: color 0.3s ease; /* Transition effect for color change */
+}
+
+#ohlc span.green {
+  color: #00cc00; /* Green text color */
+  transition: color 0.3s ease; /* Transition effect for color change */
+}
+
+
+#tvchart {
+  width: 800px;
+  height: 500px;
+  background-color: #000;
+  color: #DDD;
+  margin-left: 20px;
+  float: left;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  float: left;
+  /* margin-left: 20px; */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
