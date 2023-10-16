@@ -38,7 +38,7 @@ These instructions will help you get a copy of the project up and running on you
    npm start
 
 The backtesting platform should now be running on your local machine. You can access it in your web browser at http://localhost:3000.
-
+ ```bash
 // Sample code to initialize the chart
 import { createChart } from 'lightweight-charts';
 
