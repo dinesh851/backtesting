@@ -1,6 +1,6 @@
 # Backtesting Website with Lightweight Charts Library
 
-![Project Banner](link_to_project_banner_image.png)
+ 
 
 This repository contains a web-based backtesting platform that utilizes the Lightweight Charts library to visualize historical trading data and analyze trading strategies.
 
